@@ -1,0 +1,23 @@
+#footer {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(77, 26, 43);
+    justify-content: space-between;
+    /* margin: 0px !important; */
+    border-top: 1px solid white;
+}
+
+#footer h2 {
+    color: white;
+}
+
+#footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-links a:hover {
+color: silver;
+    transition: 0.5s ease;
+}

@@ -1,0 +1,62 @@
+#insurance-top {
+    /* background-image: url("../../assets/images/string-lights-overlay.png"); */
+    background-position: center ;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    padding: 50px;
+  }
+  
+  #insurance-top-text {
+      width: 40%;
+      padding: 50px;
+      /* backdrop-filter: blur(10px);
+      border: 1px solid white;
+      border-radius: 10px; */
+    }
+    
+    #insurance-top-text h2 {
+      color: white;
+      font-size: 40px;
+      font-weight: lighter;
+    }
+    
+    #insurance-top-text p {
+      font-size: 20px;
+      color: white;
+    }
+  
+    #insurance-contact-btn {
+      background-color: transparent;
+      border: 2px solid;
+      border-radius: 5px;
+      padding: 12px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 40px;
+    }
+    
+    #insurance-contact-btn a {
+      text-decoration: none !important;
+        color: white;
+    }
+    
+    #insurance-contact-btn:hover {
+      color: silver;
+      background-color: silver;
+      transition: 0.5s ease;
+    }
+  
+    #insurance-logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+    }
+    
+    #insurance-logos img {
+      padding: 50px;
+      height: 15%;
+      width: 15%;
+    }

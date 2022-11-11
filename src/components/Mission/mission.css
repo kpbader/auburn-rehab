@@ -1,0 +1,25 @@
+#mission-top {
+    /* background-image: url("../../assets/images/adrian-trinkaus-NTApDysDC0s-unsplash.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+  
+  #mission-top {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 100px;
+  }
+  
+  #mission-top h2 {
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  
+  #mission-top p {
+    width: 50%;
+    font-size: 20px;
+  }

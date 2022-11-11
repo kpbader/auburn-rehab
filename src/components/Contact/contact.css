@@ -1,0 +1,119 @@
+#contact-page {
+    /* background-image: url('../../assets/images/matt-jones-dgLp5y_Jhuw-unsplash.jpg'); */
+    background-position: center bottom;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+  
+  #contact-page-header {
+      color: white;
+      font-size: 50px;
+      display: flex;
+      padding: 50px;
+      margin: 0px;
+  }
+  
+  #contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #contact-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 60px;
+      margin-bottom: 50px;
+      border: 1px solid white;
+      border-radius: 10px;
+      padding: 40px;
+  }
+  
+  #hp-contact-form-header {
+      color: white;
+      font-size: 40px;
+      /* font-weight: 300; */
+  }
+  
+  #form-slot-1 {
+      font-size: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  
+  
+  #form-slot-1 input {
+      border-radius: 5px;
+  }
+  
+  #form-slot-2 {
+      font-size: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  
+  #form-slot-2 label {
+      color: white;
+      padding-bottom: 10px;
+  }
+  
+  #form-slot-2 input {
+      border-radius: 5px;
+  }
+  
+  #form-slot-3 {
+      font-size: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  
+  #form-slot-1 label {
+      color: white;
+      padding-bottom: 10px;
+  }
+  
+  #form-slot-3 label {
+      color: white;
+      padding-bottom: 10px;
+  }
+  
+  #form-slot-3 textarea {
+      border-radius: 5px;
+      font-size: 12px;
+  }
+  
+  .contact-submit-btn {
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 5px;
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+  }
+  
+  .contact-submit-btn:hover {
+      color: silver;
+      border: 1px solid silver;
+      transition: .5s ease;
+      cursor: pointer;
+  }
+  
+  .contact-info-line {
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+  }
+  
+  .contact-info-line p {
+      padding-left: 10px;
+  }

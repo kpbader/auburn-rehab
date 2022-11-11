@@ -1,0 +1,21 @@
+#about-top {
+    /* background-image: url("../../assets/images/patrick-hendry-jpUwTGQf43w-unsplash.jpg"); */
+    /* background-position: center bottom; */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 100px;
+  }
+  
+  #about-top h2 {
+      font-size: 44px;
+      font-weight: lighter;
+  }
+  
+  #about-top p {
+      font-size: 25px;
+  }

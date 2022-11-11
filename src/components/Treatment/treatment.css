@@ -1,0 +1,121 @@
+#treatment-top {
+    /* background-image: url("../../assets/images/ronan-furuta-56ryp9l_jC0-unsplash.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 100px;
+  }
+  
+  #treatment-top h2 {
+      font-size: 44px;
+      font-weight: lighter;
+  }
+  
+  #treatment-top h3 {
+      font-size: 30px;
+      font-weight: lighter;
+  }
+  
+  #treatment-top p {
+      width: 50%;
+      font-size: 20px;
+  }
+  
+  #treatment-two {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 75px;
+      background-color: rgb(77, 26, 43);
+  }
+  
+  #treatment-two-text {
+      width: 40%;
+      padding: 50px;
+      color: white;
+  }
+  
+  #treatment-two-text h2 {
+      font-size: 40px;
+      font-weight: lighter;
+  }
+  
+  #treatment-two-text p {
+      font-size: 20px;
+  }
+  
+  #treatment-two-text li {
+      font-size: 18px;
+      padding: 10px;
+  }
+  
+  #treatment-two img {
+      width: 50%;
+      height: 50%;
+  }
+  
+  #treatment-three {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 75px;
+  }
+  
+  #treatment-three-text {
+      width: 30%;
+      padding: 50px;
+      color: rgb(77, 26, 43);
+  }
+  
+  #treatment-three-text h2 {
+      font-size: 40px;
+      font-weight: lighter;
+  }
+  
+  #treatment-three-text p {
+      font-size: 20px;
+  }
+  
+  #treatment-three img {
+      width: 60%;
+      height: 60%;
+  }
+  
+  #treatment-four {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 75px;
+      background-color: rgb(77, 26, 43);
+  }
+  
+  #treatment-four img {
+      width: 50%;
+      height: 50%;
+  }
+  
+  #treatment-four-text {
+      width: 40%;
+      padding: 50px;
+      color: white;
+  }
+  
+  #treatment-four-text h2 {
+      font-size: 40px;
+      font-weight: lighter;
+  }
+  
+  #treatment-four-text p {
+      font-size: 20px;
+  }
+  
+  #treatment-four-text li {
+      font-size: 18px;
+      padding: 10px;
+  }
+  
