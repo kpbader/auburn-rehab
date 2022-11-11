@@ -1,8 +1,8 @@
 import './treatment.css';
 import Fade from 'react-reveal/Fade';
-// import redwoods from '../../assets/images/dave-herring-4tiTrEKRmnM-unsplash.jpg';
-// import flowerField from '../../assets/images/levan-badzgaradze-xoeljsx5CD4-unsplash.jpg';
-// import sunFlowers from '../../assets/images/marisol-benitez-OglDSoHjZw4-unsplash.jpg';
+import franciscoG from '../../assets/images/francisco-g-unsplash.jpg';
+import nickR from '../../assets/images/nick-rickert-qx3ZAL-gYjY-unsplash.jpg';
+import lakeOne from '../../assets/images/daniel-roe-lpjb_UMOyx8-unsplash.jpg';
 import { useState, useRef } from 'react';
 
 
@@ -24,7 +24,7 @@ function Treatment() {
             </div>
             <div id="treatment-two">
                 <Fade left>
-                    {/* <img src={sunFlowers} alt="by Dave Herring" /> */}
+                    <img src={franciscoG} alt="by Francisco Gonzalez" />
                 </Fade>
                 <Fade right>
                     <div id="treatment-two-text">
@@ -47,12 +47,12 @@ function Treatment() {
                     </div>
                 </Fade>
                 <Fade right>
-                    {/* <img src={flowerField} alt="Alex Kramarevsky" /> */}
+                    <img src={nickR} alt="by Nick Rickert" />
                 </Fade>
             </div>
             <div id="treatment-four">
                 <Fade left>
-                {/* <img src={redwoods} alt="by Dave Herring" /> */}
+                <img src={lakeOne} alt="by Daniel Roe" />
                 </Fade>
                 <Fade right>
                     <div id="treatment-four-text">

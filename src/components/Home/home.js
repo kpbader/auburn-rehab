@@ -1,5 +1,5 @@
 import './home.css';
-// import hills from '../../assets/video/bay-area-hills.mp4';
+import fire from '../../assets/video/AdobeStock_416740438_AdobeExpress.mp4';
 import Fade from 'react-reveal/Fade';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
@@ -24,9 +24,9 @@ function Home() {
     return (
         <section id="home-page">
             <div id="home-splash">
-                {/* <video autoPlay muted loop>
-                    <source src={hills} type="video/mp4" />
-                </video> */}
+                <video autoPlay muted loop>
+                    <source src={fire} type="video/mp4" />
+                </video>
                 <Fade up>
                     <h2>The road to recovery starts with us</h2>
                 </Fade>

@@ -1,5 +1,5 @@
 #treatment-top {
-    /* background-image: url("../../assets/images/ronan-furuta-56ryp9l_jC0-unsplash.jpg"); */
+    background-image: url("../../assets/images/denys-nevozhai-overlay.jpg");
     background-position: center;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -82,8 +82,8 @@
   }
   
   #treatment-three img {
-      width: 60%;
-      height: 60%;
+      width: 50%;
+      height: 50%;
   }
   
   #treatment-four {
