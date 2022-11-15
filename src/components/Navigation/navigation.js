@@ -61,7 +61,7 @@ function Navigation() {
                     <section id="nav-tabs">
                         <ul className="tabpanel">
 
-                            <Link to="/ocean-valley-bh" className="header-nav-tab">Home</Link>
+                            <Link to="/auburn-rehab" className="header-nav-tab">Home</Link>
                             <Link to="/treatment" className="header-nav-tab">Treatment</Link>
                             <Link to="/mission" className="header-nav-tab">Mission</Link>
                             <Link to="/about" className="header-nav-tab">About</Link>
