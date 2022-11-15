@@ -26,3 +26,101 @@
     color: silver;
     transition: 0.5s ease;
 }
+
+#hamburger-btn {
+    text-align: right;
+    font-size: 45px;
+    display: none;
+    color: white !important;
+  }
+  
+  .offcanvas {
+    height: 350px !important;
+    width: 200px !important;
+    /* display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      top: 0;
+      right: 0; */
+    position: fixed;
+    bottom: 0;
+    z-index: 1045;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    visibility: hidden;
+    background-color: #fff;
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  element.style {
+    visibility: visible;
+  }
+  .offcanvas.show {
+    transform: none;
+  }
+  .offcanvas-end {
+    top: 0;
+    right: 0;
+    width: 250px;
+    border-left: 1pxsolidrgba(0,0,0,.2);
+    transform: translateX(100%)
+  }
+  
+  .offcanvas-header {
+    position: absolute;
+    padding: 10px;
+  }
+  
+  .tabpanel {
+    padding: 30px;
+    /* transition: 0.5s; */
+  }
+  
+  .tabpanel a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    display: block;
+    transition: 0.5s;
+    text-align: left;
+  }
+  
+  .tabpanel a:hover {
+    color: silver;
+    cursor: pointer;
+  }
+  
+  .btn-close {
+    box-sizing: content-box;
+    width: 2em;
+    height: 2em;
+    padding: 0.25em;
+    color: #000;
+    background: transparent url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3E%3Cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3E%3C/svg%3E") 50%/1em auto no-repeat;
+    border: 0;
+    border-radius: 0.25rem;
+  }
+  
+  .btn-close:hover {
+    cursor: pointer;
+  }
+  
+  .openbtn {
+    right: 0;
+    cursor: pointer;
+    color: grey !important;
+    border: none !important;
+    background-color: white !important;
+    z-index: 99;
+  }
+  
+  
+  .btn-primary:hover {
+    color: silver !important;
+    transition: 0.3s;
+  }

@@ -1,3 +1,335 @@
 * {
-  font-family: Futura, "Helvetica Neue";
+  font-family: Futura, Helvetica;
 }
+
+/* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+  /* NAV */
+
+  #nav-bar {
+    flex-wrap: wrap;
+  }
+
+  #nav-bar header {
+    font-size: 30px !important;
+  }
+
+  #nav-bar img {
+    width: 70% !important;
+    height: 70% !important;
+  }
+
+  #main-nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none !important;
+  }
+
+  #hamburger-btn {
+   display:contents !important;
+  }
+
+  /* HOME PAGE */
+
+  #home-splash h2 {
+    display: none;
+  }
+
+  #our-services {
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  #our-services-header {
+    width: 75%;
+    text-align: center;
+  }
+
+  #our-services-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #our-services-cards .card {
+    margin: 0px !important;
+  }
+
+
+  /* CONTACT */
+
+#bottom-contact-container {
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center;
+}
+
+#contact-container {
+  justify-content: center !important;
+  align-items: center;
+}
+
+#contact-form {
+  width: 50%;
+}
+
+#form-slot-3 textarea{
+  width: 100%;
+}
+
+#google-map {
+  display: none;
+}
+
+/* TREATMENT */
+
+#treatment-top p {
+  width: 100% !important;
+}
+
+#treatment-two img {
+  display: none;
+}
+
+#treatment-two {
+  padding: 0px !important;
+}
+
+#treatment-two-text {
+  padding: 20px !important;
+}
+
+#treatment-two-text h2 {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+#treatment-two-text p {
+  font-size: 15px !important;
+}
+
+#treatment-two-text li {
+  font-size: 15px !important;
+}
+
+#treatment-three img {
+  display: none;
+}
+
+#treatment-three {
+  padding: 0px !important;
+}
+
+#treatment-three-text {
+  padding: 20px !important;
+}
+
+#treatment-three-text h2 {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+#treatment-three-text p {
+  font-size: 15px !important;
+}
+
+#treatment-four-text {
+  padding: 20px !important;
+}
+
+#treatment-four-text h2 {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+#treatment-four-text p {
+  font-size: 15px !important;
+}
+
+#treatment-four-text li {
+  font-size: 15px !important;
+}
+
+#treatment-four img {
+  display: none;
+}
+
+#treatment-four {
+  padding: 0px !important;
+}
+
+#treatmentFive img {
+  display: none;
+}
+
+#treatmentFive {
+ padding: 20px !important;
+}
+
+/* MISSION */
+
+#mission-top p {
+  width: 100% !important;
+}
+
+/* ABOUT */
+
+/* INSURANCE */
+
+#insurance-top-text {
+  width: 60% !important;
+}
+
+#insurance-logos img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+#insurance-map {
+  display: none;
+}
+
+/* CONTACT */
+#contact-info {
+  display: none;
+}
+
+#google-map {
+  display: none;
+}
+
+}
+
+/* Portrait tablets and large phones, 600px + */
+@media only screen and (min-width: 480px) and (max-width: 820px) {
+
+  * {
+    width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  /* NAV */
+  #nav-bar {
+    display: flex;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    padding-bottom: 20px;
+    width: 100% !important;
+  }
+
+  #nav-bar img {
+    width: 40% !important;
+    height: 40% !important;
+  }
+
+
+  /* HOME */
+
+  #home-splash h2 {
+    display: none;
+  }
+
+  #our-services {
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: center !important;
+  }
+
+  #our-services h3 {
+    border: 0px !important;
+  }
+
+  #our-services-cards .card {
+    margin: 20px !important;
+  }
+
+  #learn-more-btn {
+    width: 20% !important;
+  }
+
+  #contact-form {
+    width: 50% !important;
+  }
+
+  #google-map {
+    width: 60% !important;
+  }
+
+  /* TREATMENT */
+
+  #treatment-top p {
+    width: 70% !important;
+    font-size: 20px;
+}
+
+
+#treatment-two-text {
+width: 50% !important;
+justify-content: center;
+}
+
+#treatment-two img {
+  display: none;
+}
+
+#treatment-three-text {
+  width: 50% !important;
+
+}
+
+#treatment-three img {
+  display: none;
+}
+
+#treatment-four img {
+  display: none;
+}
+
+#treatment-four-text {
+  width: 70% !important;
+}
+
+
+/* OUR MISSION */
+
+#mission-top p {
+  width: 70% !important;
+  font-size: 20px;
+}
+
+  /* INSURANCE */
+
+  #insurance-top-text {
+    width: 40% !important;
+    padding: 50px;
+  }
+
+  #insurance-contact-btn {
+    width: 50% !important;
+  }
+
+
+#insurance-logos img {
+  height: 50% !important;
+  width: 50% !important;
+}
+
+/* CONTACT */
+
+#contact-page-header {
+  display: none !important;
+}
+
+#contact-container {
+  flex-direction: column !important; 
+}
+
+#contact-form {
+  width: 50% !important;
+}
+
+#google-map {
+  width: 60% !important;
+}
+
+};
