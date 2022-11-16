@@ -1,5 +1,6 @@
 import './home.css';
-import fire from '../../assets/video/AdobeStock_416740438_AdobeExpress.mp4';
+// import fire from '../../assets/video/AdobeStock_416740438_AdobeExpress.mp4';
+import splashVid from "../../assets/video/pexels-fearless-dreams-5598964.mp4";
 import Fade from 'react-reveal/Fade';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
@@ -25,7 +26,7 @@ function Home() {
         <section id="home-page">
             <div id="home-splash">
                 <video autoPlay muted loop>
-                    <source src={fire} type="video/mp4" />
+                    <source src={splashVid} type="video/mp4" alt="Video by Zlatin Georgiev from Pexels"/>
                 </video>
                 <Fade up>
                     <h2>The road to recovery starts with us</h2>

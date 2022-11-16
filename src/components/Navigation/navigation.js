@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import logo from "../../assets/images/auburn-logo-white-01.png";
 
 function Navigation() {
 
@@ -15,8 +16,7 @@ function Navigation() {
 
     return (
         <section id="nav-bar">
-            {/* <img /> */}
-            <header>Auburn Rehab</header>
+            <img src={logo} alt="logo"/>
             <Nav id="main-nav-links">
                 <Nav.Item>
                     <Nav.Link>

@@ -5,11 +5,16 @@
     align-items: center;
 }
 
-#nav-bar header {
+#nav-bar img {
+  height: 20%;
+  width: 20%;
+}
+
+/* #nav-bar header {
     font-size: 40px;
     color: white;
     padding: 30px;
-}
+} */
 
 #main-nav-links {
     display: flex;
@@ -17,7 +22,7 @@
 
 #main-nav-links a {
     padding: 20px;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     text-decoration: none;
 }
