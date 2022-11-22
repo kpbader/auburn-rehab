@@ -117,3 +117,50 @@
   .contact-info-line p {
       padding-left: 10px;
   }
+
+  /* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    #contact-page {
+        background-size: auto;
+    }
+      
+      #contact-container {
+        justify-content: center !important;
+        align-items: center;
+      }
+      
+      #contact-form {
+        width: 50%;
+      }
+      
+      #form-slot-3 textarea{
+        width: 100%;
+      }
+      
+      #contact-container #google-map {
+        display: none;
+      }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    
+  #contact-page {
+      overflow: hidden;
+  }
+
+  #contact-container {
+      flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    #contact-page {
+        overflow: hidden;
+    }
+
+    #contact-container {
+        flex-direction: column;
+    }
+  
+}

@@ -17,7 +17,7 @@ function About() {
                     <p>Coming soon!</p>
                 </Fade>
             </div>
-            <div id="bottom-contact-container">
+            <div id="about-bottom-contact-container">
                 <Fade left>
                     <form id="contact-form">
                         <p id="hp-contact-form-header">Reach Out</p>

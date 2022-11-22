@@ -73,7 +73,7 @@ video {
     transition: 0.5s ease;
   }
 
-  #bottom-contact-container {
+  #hp-bottom-contact-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around !important;
@@ -177,4 +177,90 @@ video {
 
 .contact-info-line p {
     padding-left: 10px;
+}
+
+/* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  #home-splash h2 {
+    display: none;
+  }
+
+  #our-services {
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  #our-services-header {
+    width: 75%;
+    text-align: center;
+    font-size: 12px !important;
+  }
+
+  #our-services-header h3 {
+    font-size: 22px !important;
+  }
+
+  #our-services-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #our-services-cards .card {
+    margin: 0px !important;
+  }
+
+  #hp-bottom-contact-container {
+    background-image: none;
+    background-color: grey;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  #home-splash h2 {
+    display: none;
+  }
+
+  #our-services {
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: center !important;
+  }
+
+  #our-services h3 {
+    border: 0px !important;
+  }
+
+  #our-services-cards .card {
+    margin: 20px !important;
+  }
+
+  #learn-more-btn {
+    width: 20% !important;
+  }
+
+  #contact-form {
+    width: 50% !important;
+  }
+
+  #hp-bottom-contact-container {
+    background-size: auto;
+  }
+
+  #hp-bottom-contact-container #google-map {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  #home-splash {
+    overflow: hidden !important;
+  }
+
+  #home-splash h2 {
+    display: none;
+  }
+
+  #hp-bottom-contact-container #google-map {
+    display: none;
+  }
 }

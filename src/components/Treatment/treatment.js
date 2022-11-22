@@ -71,10 +71,10 @@ function Treatment() {
                     </div>
                 </Fade>
             </div>
-            <div id="bottom-contact-container">
+            <div id="tp-bottom-contact-container">
                 <Fade left>
-                    <form id="contact-form">
-                        <p id="hp-contact-form-header">Reach Out</p>
+                    <form id="tp-contact-form">
+                        <p id="tp-contact-form-header">Reach Out</p>
                         <div id="form-slot-1">
                             <label htmlFor="name">Name</label>
                             <input type="text" defaultValue={name} name="name" />

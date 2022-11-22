@@ -19,3 +19,46 @@
   #about-top p {
       font-size: 25px;
   }
+
+  #about-bottom-contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+    align-items: center;
+    background-image: url('../../assets/images/pexels-valeria-boltneva-1123262.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+
+  /* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    #about-bottom-contact-container {
+        background-image: none; 
+        background-color: grey;
+    }
+}
+
+/* Portrait tablets and large phones */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    #about-bottom-contact-container {
+        background-size: auto;
+    }
+
+    #about-bottom-contact-container #google-map {
+        display: none;
+    }
+}
+
+/* Landscape tablets */
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+
+    #about-bottom-contact-container {
+        background-size: auto;
+    }
+
+    #about-bottom-contact-container #google-map {
+        display: none;
+    }
+}

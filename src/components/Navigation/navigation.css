@@ -1,8 +1,11 @@
+
+
 #nav-bar {
     display: flex;
     background-color: rgb(77, 26, 43);
     justify-content: space-around;
     align-items: center;
+    overflow: hidden;
 }
 
 #nav-bar img {
@@ -54,7 +57,7 @@
     flex-direction: column;
     max-width: 100%;
     visibility: hidden;
-    background-color: #fff;
+    background-color: white;
     background-clip: padding-box;
     outline: 0;
     transition: transform 0.3s ease-in-out;
@@ -89,7 +92,7 @@
     padding: 10px;
     text-decoration: none;
     font-size: 20px;
-    color: grey;
+    color: rgb(77, 26, 43);
     display: block;
     transition: 0.5s;
     text-align: left;
@@ -129,3 +132,56 @@
     color: silver !important;
     transition: 0.3s;
   }
+
+/* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  #nav-bar {
+    flex-wrap: wrap;
+  }
+
+  #nav-bar img {
+    width: 50% !important;
+    height: 50% !important;
+  }
+
+  #main-nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none !important;
+  }
+
+  #hamburger-btn {
+   display:contents !important;
+  }
+}
+
+  @media only screen and (min-width: 480px) and (max-width: 768px) {
+
+
+    #main-nav-links a {
+      font-size: 15px;
+      padding: 10px;
+    }
+
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 900px) {
+
+    #nav-bar {
+      display: flex;
+      flex-wrap: wrap ;
+      align-items: center ;
+      padding-bottom: 20px;
+      width: 100% ;
+    }
+  
+    #nav-bar img {
+      width: 40% ;
+      height: 40% ;
+    }
+
+    #main-nav-links a {
+      font-size: 20px;
+      padding: 15px;
+    }
+}

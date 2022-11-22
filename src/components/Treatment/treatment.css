@@ -1,121 +1,301 @@
 #treatment-top {
-    background-image: url("../../assets/images/denys-nevozhai-overlay.jpg");
-    background-position: center;
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 0px;
-    padding: 100px;
-  }
-  
-  #treatment-top h2 {
-      font-size: 44px;
-      font-weight: lighter;
-  }
-  
-  #treatment-top h3 {
-      font-size: 30px;
-      font-weight: lighter;
-  }
-  
+  background-image: url("../../assets/images/denys-nevozhai-overlay.jpg");
+  background-position: center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 100px;
+}
+
+#treatment-top h2 {
+  font-size: 44px;
+  font-weight: lighter;
+}
+
+#treatment-top h3 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#treatment-top p {
+  width: 50%;
+  font-size: 20px;
+}
+
+#treatment-two {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 75px;
+  background-color: rgb(77, 26, 43);
+}
+
+#treatment-two-text {
+  width: 40%;
+  padding: 50px;
+  color: white;
+}
+
+#treatment-two-text h2 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#treatment-two-text p {
+  font-size: 20px;
+}
+
+#treatment-two-text li {
+  font-size: 18px;
+  padding: 10px;
+}
+
+#treatment-two img {
+  width: 50%;
+  height: 50%;
+}
+
+#treatment-three {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 75px;
+}
+
+#treatment-three-text {
+  width: 30%;
+  padding: 50px;
+  color: rgb(77, 26, 43);
+}
+
+#treatment-three-text h2 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#treatment-three-text p {
+  font-size: 20px;
+}
+
+#treatment-three img {
+  width: 50%;
+  height: 50%;
+}
+
+#treatment-four {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 75px;
+  background-color: rgb(77, 26, 43);
+}
+
+#treatment-four img {
+  width: 50%;
+  height: 50%;
+}
+
+#treatment-four-text {
+  width: 40%;
+  padding: 50px;
+  color: white;
+}
+
+#treatment-four-text h2 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#treatment-four-text p {
+  font-size: 20px;
+}
+
+#treatment-four-text li {
+  font-size: 18px;
+  padding: 10px;
+}
+
+#tp-bottom-contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around !important;
+  align-items: center;
+  background-image: url("../../assets/images/pexels-valeria-boltneva-1123262.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+#tp-contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 40px;
+  backdrop-filter: blur(10px);
+}
+
+#tp-contact-form-header {
+  color: white;
+  font-size: 40px;
+}
+
+/* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
   #treatment-top p {
-      width: 50%;
-      font-size: 20px;
+    width: 100% !important;
   }
-  
-  #treatment-two {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      padding: 75px;
-      background-color: rgb(77, 26, 43);
-  }
-  
-  #treatment-two-text {
-      width: 40%;
-      padding: 50px;
-      color: white;
-  }
-  
-  #treatment-two-text h2 {
-      font-size: 40px;
-      font-weight: lighter;
-  }
-  
-  #treatment-two-text p {
-      font-size: 20px;
-  }
-  
-  #treatment-two-text li {
-      font-size: 18px;
-      padding: 10px;
-  }
-  
+
   #treatment-two img {
-      width: 50%;
-      height: 50%;
+    display: none;
   }
-  
-  #treatment-three {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      padding: 75px;
+
+  #treatment-two {
+    padding: 0px !important;
   }
-  
-  #treatment-three-text {
-      width: 30%;
-      padding: 50px;
-      color: rgb(77, 26, 43);
+
+  #treatment-two-text {
+    padding: 20px !important;
   }
-  
-  #treatment-three-text h2 {
-      font-size: 40px;
-      font-weight: lighter;
+
+  #treatment-two-text h2 {
+    font-size: 20px !important;
+    font-weight: bold !important;
   }
-  
-  #treatment-three-text p {
-      font-size: 20px;
+
+  #treatment-two-text p {
+    font-size: 15px !important;
   }
-  
+
+  #treatment-two-text li {
+    font-size: 15px !important;
+  }
+
   #treatment-three img {
-      width: 50%;
-      height: 50%;
+    display: none;
   }
-  
-  #treatment-four {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      padding: 75px;
-      background-color: rgb(77, 26, 43);
+
+  #treatment-three {
+    padding: 0px !important;
   }
-  
-  #treatment-four img {
-      width: 50%;
-      height: 50%;
+
+  #treatment-three-text {
+    padding: 20px !important;
   }
-  
+
+  #treatment-three-text h2 {
+    font-size: 20px !important;
+    font-weight: bold !important;
+  }
+
+  #treatment-three-text p {
+    font-size: 15px !important;
+  }
+
   #treatment-four-text {
-      width: 40%;
-      padding: 50px;
-      color: white;
+    padding: 20px !important;
   }
-  
+
   #treatment-four-text h2 {
-      font-size: 40px;
-      font-weight: lighter;
+    font-size: 20px !important;
+    font-weight: bold !important;
   }
-  
+
   #treatment-four-text p {
-      font-size: 20px;
+    font-size: 15px !important;
   }
-  
+
   #treatment-four-text li {
-      font-size: 18px;
-      padding: 10px;
+    font-size: 15px !important;
   }
-  
+
+  #treatment-four img {
+    display: none;
+  }
+
+  #treatment-four {
+    padding: 0px !important;
+  }
+
+  #treatmentFive img {
+    display: none;
+  }
+
+  #treatmentFive {
+    padding: 20px !important;
+  }
+
+  #tp-bottom-contact-container {
+    background-image: none;
+    background-color: grey;
+  }
+
+  #tp-contact-form {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    overflow-y: scroll;
+    height: 101%;
+    position: relative;
+  }
+
+  #treatment-top p {
+    width: 70% !important;
+    font-size: 20px;
+  }
+
+  #treatment-two-text {
+    width: 50% !important;
+    justify-content: center;
+    }
+    
+    #treatment-two img {
+      display: none;
+    }
+    
+    #treatment-three-text {
+      width: 50% !important;
+    
+    }
+    
+    #treatment-three img {
+      display: none;
+    }
+    
+    #treatment-four img {
+      display: none;
+    }
+    
+    #treatment-four-text {
+      width: 70% !important;
+    }
+
+  #tp-bottom-contact-container {
+    background-size: auto;
+  }
+
+  #tp-bottom-contact-container #google-map {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  #tp-bottom-contact-container {
+    background-size: auto;
+  }
+
+  #tp-bottom-contact-container #google-map {
+    display: none;
+  }
+}
