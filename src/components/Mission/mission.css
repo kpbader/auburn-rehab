@@ -45,6 +45,10 @@
     background-color: grey;
     background-image: none;
   }
+
+  #mp-bottom-contact-container #google-map {
+    display: none;
+  }
 }
 
 /* Portrait tablets and large phones */

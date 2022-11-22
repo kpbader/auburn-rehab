@@ -241,6 +241,10 @@
   #tp-contact-form {
     width: 60%;
   }
+
+  #tp-bottom-contact-container #google-map {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
