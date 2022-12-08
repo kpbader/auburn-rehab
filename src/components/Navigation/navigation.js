@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import logo from "../../assets/images/auburn-logo-white-01.png";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Navigation() {
 
@@ -16,7 +17,7 @@ function Navigation() {
 
     return (
         <section id="nav-bar">
-            <img src={logo} alt="logo"/>
+            <LazyLoadImage src={logo} alt="logo"/>
             <Nav id="main-nav-links">
                 <Nav.Item>
                     <Nav.Link>

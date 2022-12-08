@@ -1,11 +1,12 @@
 import './home.css';
 import BottomContact from '../Bottom-Contact/bottom-contact';
-import splashVid from "../../assets/video/pexels-fearless-dreams-5598964.mp4";
+import splashVid from "../../assets/video/pexels-fearless-dreams-5598964 (1).mp4";
 import Fade from 'react-reveal/Fade';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import { HiUserGroup } from "react-icons/hi";
 import { FaHandHoldingHeart, FaBriefcaseMedical } from "react-icons/fa";
+
 
 function Home() {
 
@@ -20,7 +21,6 @@ function Home() {
         <section id="home-page">
             <div id="home-splash">
                 <video src={splashVid} autoPlay muted loop playsInline />
-                    
                 <Fade up>
                     <h2>The road to recovery starts with us</h2>
                 </Fade>

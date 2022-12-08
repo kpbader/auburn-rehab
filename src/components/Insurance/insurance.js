@@ -9,6 +9,7 @@ import mhn from '../../assets/images/MHN_insurance_logo-1280x720.jpeg';
 import united from '../../assets/images/United-Healthcare-Logo.png';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Insurance () {
 
@@ -27,13 +28,13 @@ function Insurance () {
             </div>
             <Fade up>
                 <div id="insurance-logos">
-                    <img src={anthem} alt="logo" />
-                    <img src={beacon} alt="logo" />
-                    <img src={blueCross} alt="logo" />
-                    <img src={cigna} alt="logo" />
-                    <img src={molina} alt="logo" />
-                    <img src={mhn} alt="logo" />
-                    <img src={united} alt="logo" />
+                    <LazyLoadImage src={anthem} alt="logo" />
+                    <LazyLoadImage src={beacon} alt="logo" />
+                    <LazyLoadImage src={blueCross} alt="logo" />
+                    <LazyLoadImage src={cigna} alt="logo" />
+                    <LazyLoadImage src={molina} alt="logo" />
+                    <LazyLoadImage src={mhn} alt="logo" />
+                    <LazyLoadImage src={united} alt="logo" />
                 </div>
             </Fade>
            <BottomContact />
