@@ -4,7 +4,7 @@ import franciscoG from '../../assets/images/francisco-g-unsplash.jpg';
 import nickR from '../../assets/images/nick-rickert-qx3ZAL-gYjY-unsplash.jpg';
 import lakeOne from '../../assets/images/daniel-roe-lpjb_UMOyx8-unsplash.jpg';
 import BottomContact from '../Bottom-Contact/bottom-contact';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 
 function Treatment() {
@@ -20,7 +20,7 @@ function Treatment() {
             </div>
             <div id="treatment-two">
                 <Fade left>
-                    <LazyLoadImage src={franciscoG} alt="by Francisco Gonzalez" />
+                    <img src={franciscoG} alt="by Francisco Gonzalez" />
                 </Fade>
                 <Fade right>
                     <div id="treatment-two-text">
@@ -43,12 +43,12 @@ function Treatment() {
                     </div>
                 </Fade>
                 <Fade right>
-                    <LazyLoadImage src={nickR} alt="by Nick Rickert" />
+                    <img src={nickR} alt="by Nick Rickert" />
                 </Fade>
             </div>
             <div id="treatment-four">
                 <Fade left>
-                <LazyLoadImage src={lakeOne} alt="by Daniel Roe" />
+                <img src={lakeOne} alt="by Daniel Roe" />
                 </Fade>
                 <Fade right>
                     <div id="treatment-four-text">

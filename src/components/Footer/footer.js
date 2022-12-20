@@ -2,7 +2,7 @@ import './footer.css';
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import footerLogo from "../../assets/images/auburn-logo-white-01.png";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 function Footer() {
 
@@ -15,7 +15,7 @@ function Footer() {
 
     return (
         <section id="footer">
-            <LazyLoadImage src={footerLogo} alt="logo" />
+            <img src={footerLogo} alt="logo" />
             <Nav id="footer-links">
                 <Nav.Item>
                     <Nav.Link>
