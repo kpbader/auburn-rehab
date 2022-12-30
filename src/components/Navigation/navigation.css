@@ -35,6 +35,17 @@
     transition: 0.5s ease;
 }
 
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu.show {
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(77, 26, 43);
+}
+
 #hamburger-btn {
     text-align: right;
     font-size: 45px;
@@ -42,9 +53,13 @@
     color: white !important;
   }
   
+  .hamburger-dropdown-tab {
+    font-size: 12px !important;
+  }
+
   .offcanvas {
     height: 350px !important;
-    width: 200px !important;
+    width: 250px !important;
     /* display: flex;
       flex-direction: row;
       justify-content: flex-end;
@@ -57,7 +72,7 @@
     flex-direction: column;
     max-width: 100%;
     visibility: hidden;
-    background-color: white;
+    background-color: rgb(77, 26, 43);
     background-clip: padding-box;
     outline: 0;
     transition: transform 0.3s ease-in-out;
@@ -92,7 +107,7 @@
     padding: 10px;
     text-decoration: none;
     font-size: 20px;
-    color: rgb(77, 26, 43);
+    color: white;
     display: block;
     transition: 0.5s;
     text-align: left;

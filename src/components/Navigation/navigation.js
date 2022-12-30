@@ -1,6 +1,7 @@
 import './navigation.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
@@ -13,22 +14,35 @@ function Navigation() {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    // const onClick = () => setShow(true);
+    const [dropShow, setDropShow] = useState(false);
+    const handleDropClose = () => setDropShow(false);
+    const handleDropShow = () => setDropShow(true);
+
+    const nav = useNavigate();
 
     return (
         <section id="nav-bar">
-            <img src={logo} alt="logo"/>
+            <img src={logo} alt="logo" />
             <Nav id="main-nav-links">
                 <Nav.Item>
                     <Nav.Link>
                         <Link to="/auburn-rehab" className="header-nav-tab">Home</Link>
                     </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link>
-                        <Link to="/treatment" className="header-nav-tab">Treatment</Link>
-                    </Nav.Link>
-                </Nav.Item>
+                <NavDropdown id="programs-dropdown" title="Programs" show={dropShow} onMouseOver={handleDropShow} onMouseOut={handleDropClose}>
+                    <NavDropdown.Item onClick={() => nav("/php")}>
+                        Partial Hospitalization Program (PHP)
+                    </NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => nav("/iop")}>
+                        Intensive Outpatient Program (IOP)
+                    </NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => nav("/op")}>
+                        Outpatient Program (OP)
+                    </NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => nav("/jobs")}>
+                        Jobs Program
+                    </NavDropdown.Item>
+                </NavDropdown>
                 <Nav.Item>
                     <Nav.Link>
                         <Link to="/mission" className="header-nav-tab">Mission</Link>
@@ -63,7 +77,20 @@ function Navigation() {
                         <ul className="tabpanel">
 
                             <Link to="/auburn-rehab" className="header-nav-tab" onClick={handleClose}>Home</Link>
-                            <Link to="/treatment" className="header-nav-tab" onClick={handleClose}>Treatment</Link>
+                            <NavDropdown id="programs-dropdown" title="Programs" show={dropShow} onMouseOver={handleDropShow} onMouseOut={handleDropClose}>
+                                <NavDropdown.Item onClick={() => nav("/php")} className="hamburger-dropdown-tab">
+                                    Partial Hospitalization Program (PHP)
+                                </NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => nav("/iop")} className="hamburger-dropdown-tab">
+                                    Intensive Outpatient Program (IOP)
+                                </NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => nav("/op")} className="hamburger-dropdown-tab">
+                                    Outpatient Program (OP)
+                                </NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => nav("/jobs")} className="hamburger-dropdown-tab">
+                                    Jobs Program
+                                </NavDropdown.Item>
+                            </NavDropdown>
                             <Link to="/mission" className="header-nav-tab" onClick={handleClose}>Mission</Link>
                             <Link to="/about" className="header-nav-tab" onClick={handleClose}>About</Link>
                             <Link to="/insurance" className="header-nav-tab" onClick={handleClose}>Insurance</Link>

@@ -1,0 +1,262 @@
+#op-page {
+    overflow-x: hidden;
+}
+
+#op-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../assets/images/marco-bicca-ADWxmGXCitw-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 75px;
+}
+
+#op-top h2 {
+    font-size: 44px;
+    font-weight: lighter;
+}
+
+#op-top h3 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#op-top p {
+    width: 50%;
+    font-size: 20px;
+}
+
+#op-two {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 75px;
+    background-color: rgb(77, 26, 43);
+}
+
+#op-two-text {
+    width: 40%;
+    padding: 50px;
+    color: white;
+}
+
+#op-two-text h2 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#op-two-text p {
+    font-size: 20px;
+}
+
+#op-two-text li {
+    font-size: 18px;
+    padding: 10px;
+}
+
+#op-two img {
+  width: 550px;
+  height: 800px;
+}
+
+#op-three {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 75px;
+}
+
+#op-three-text {
+    width: 30%;
+    padding: 50px;
+    color: rgb(77, 26, 43);
+}
+
+#op-three-text h2 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#op-three-text p {
+    font-size: 20px;
+}
+
+#op-three img {
+  width: 650px;
+  height: 1000px;
+}
+
+#op-four {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 75px;
+    background-color: rgb(77, 26, 43);
+}
+
+#op-four img {
+  width: 700px;
+  height: 500px;
+}
+
+#op-four-text {
+    width: 40%;
+    padding: 50px;
+    color: white;
+}
+
+#op-four-text h2 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#op-four-text p {
+    font-size: 20px;
+}
+
+#op-four-text li {
+    font-size: 18px;
+    padding: 10px;
+}
+
+#op-four-text li a {
+    color: white;
+}
+
+#op-four-text li a:hover {
+    color: silver;
+    transition: 0.5s ease;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+
+    #op-top {
+        padding: 50px;
+    }
+
+    #op-top p {
+        width: 100% !important;
+      }
+      
+      #op-two img {
+        display: none;
+      }
+      
+      #op-two {
+        padding: 0px;
+      }
+      
+      #op-two-text {
+        padding: 25px;
+        width: 75%;
+      }
+      
+      #op-two-text h2 {
+        font-size: 20px !important;
+        font-weight: bold !important;
+      }
+      
+      #op-two-text p {
+        font-size: 15px !important;
+      }
+      
+      #op-two-text li {
+        font-size: 15px !important;
+      }
+      
+      #op-three img {
+        display: none;
+      }
+      
+      #op-three {
+        padding: 0px !important;
+      }
+      
+      #op-three-text {
+        padding: 20px !important;
+        width: 75%;
+      }
+      
+      #op-three-text h2 {
+        font-size: 20px !important;
+        font-weight: bold !important;
+      }
+      
+      #op-three-text p {
+        font-size: 15px !important;
+      }
+      
+      #op-four-text {
+        padding: 20px !important;
+        width: 75%;
+      }
+      
+      #op-four-text h2 {
+        font-size: 20px !important;
+        font-weight: bold !important;
+      }
+      
+      #op-four-text p {
+        font-size: 15px !important;
+      }
+      
+      #op-four-text li {
+        font-size: 15px !important;
+      }
+      
+      #op-four img {
+        display: none;
+      }
+      
+      #op-four {
+        padding: 0px !important;
+      }
+      
+      #opFive img {
+        display: none;
+      }
+      
+      #opFive {
+       padding: 20px !important;
+      }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 820px) {
+
+    #op-top p {
+        width: 70% !important;
+        font-size: 20px;
+    }
+    
+    
+    #op-two-text {
+      width: 75%;
+    justify-content: center;
+    }
+    
+    #op-two img {
+      display: none;
+    }
+    
+    #op-three-text {
+      width: 75%;
+    
+    }
+    
+    #op-three img {
+      display: none;
+    }
+    
+    #op-four img {
+      display: none;
+    }
+    
+    #op-four-text {
+      width: 75%;
+    }
+}
