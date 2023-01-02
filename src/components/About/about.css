@@ -17,14 +17,17 @@
   }
   
   #about-top p {
-      font-size: 25px;
+      font-size: 22px;
+      width: 50%;
   }
 
   
 
   /* Extra small devices */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-    
+    #about-top p{
+        width: 100%;
+    }
 }
 
 /* Portrait tablets and large phones */

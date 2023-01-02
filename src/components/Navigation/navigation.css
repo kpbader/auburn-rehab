@@ -172,10 +172,14 @@
 
   @media only screen and (min-width: 480px) and (max-width: 768px) {
 
-
-    #main-nav-links a {
-      font-size: 15px;
-      padding: 10px;
+    #main-nav-links {
+      flex-wrap: wrap;
+      justify-content: center;
+      display: none !important;
+    }
+  
+    #hamburger-btn {
+     display:contents !important;
     }
 
   }
