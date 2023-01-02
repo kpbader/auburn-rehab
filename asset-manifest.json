@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/auburn-rehab/static/css/main.9c81d4f2.css",
-    "main.js": "/auburn-rehab/static/js/main.e6018741.js",
+    "main.css": "/auburn-rehab/static/css/main.f7ea2c54.css",
+    "main.js": "/auburn-rehab/static/js/main.9481bc65.js",
     "static/js/787.cef7e3a1.chunk.js": "/auburn-rehab/static/js/787.cef7e3a1.chunk.js",
     "static/media/pexels-fearless-dreams-5598964 (1).mp4": "/auburn-rehab/static/media/pexels-fearless-dreams-5598964 (1).5215fe21fd90bc078463.mp4",
     "static/media/denys-nevozhai-overlay.jpg": "/auburn-rehab/static/media/denys-nevozhai-overlay.f59357655bce10a13601.jpg",
@@ -20,19 +20,24 @@
     "static/media/tsvetelin-todorov-vYBPW6mas7A-unsplash.jpg": "/auburn-rehab/static/media/tsvetelin-todorov-vYBPW6mas7A-unsplash.354c767c3227fc50c465.jpg",
     "static/media/cris-ovalle-YTk8tO3PGdA-unsplash.jpg": "/auburn-rehab/static/media/cris-ovalle-YTk8tO3PGdA-unsplash.c2a382ec85d54afc6a83.jpg",
     "static/media/zetong-li-k-e_Vj5ij9g-unsplash.jpg": "/auburn-rehab/static/media/zetong-li-k-e_Vj5ij9g-unsplash.1989654b5aa862c11bb9.jpg",
+    "static/media/umr-logo.webp": "/auburn-rehab/static/media/umr-logo.3172cd220dd1fbc0e2fa.webp",
     "static/media/auburn-logo-white-01.png": "/auburn-rehab/static/media/auburn-logo-white-01.b5025ae7ca5ce5fe400c.png",
     "static/media/bluecross-blueshield-simple-modern-therapy-logo.png": "/auburn-rehab/static/media/bluecross-blueshield-simple-modern-therapy-logo.56a2b29ee5649d0f6cee.png",
+    "static/media/4516741cOptum-logo-ora-RGB.webp": "/auburn-rehab/static/media/4516741cOptum-logo-ora-RGB.0a00b0d8e89507e7fa53.webp",
     "static/media/Cigna_logo.svg.png": "/auburn-rehab/static/media/Cigna_logo.svg.ff3f6e8fda9f8d5606b2.png",
+    "static/media/optima-health-inc-health-care-health-insurance-png-favpng-dumtEeQ0mCtUM1MyRcuN2YYzZ.webp": "/auburn-rehab/static/media/optima-health-inc-health-care-health-insurance-png-favpng-dumtEeQ0mCtUM1MyRcuN2YYzZ.184bf2d78e72223187b6.webp",
     "static/media/beacon-logo.png": "/auburn-rehab/static/media/beacon-logo.7c0bf886c3f818483418.png",
+    "static/media/horizon-logo.webp": "/auburn-rehab/static/media/horizon-logo.2cb8696e0bdbb9d670d6.webp",
+    "static/media/United-Healthcare-Logo.png": "/auburn-rehab/static/media/United-Healthcare-Logo.9dce2462c02ddc36d849.png",
     "static/media/0f0564f1-d965-4e82-9580-862fa8032906.png": "/auburn-rehab/static/media/0f0564f1-d965-4e82-9580-862fa8032906.c301a34937790dfe4be7.png",
     "static/media/Anthem-Inc-logo.png": "/auburn-rehab/static/media/Anthem-Inc-logo.97c429ae10389f929f91.png",
     "index.html": "/auburn-rehab/index.html",
-    "main.9c81d4f2.css.map": "/auburn-rehab/static/css/main.9c81d4f2.css.map",
-    "main.e6018741.js.map": "/auburn-rehab/static/js/main.e6018741.js.map",
+    "main.f7ea2c54.css.map": "/auburn-rehab/static/css/main.f7ea2c54.css.map",
+    "main.9481bc65.js.map": "/auburn-rehab/static/js/main.9481bc65.js.map",
     "787.cef7e3a1.chunk.js.map": "/auburn-rehab/static/js/787.cef7e3a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c81d4f2.css",
-    "static/js/main.e6018741.js"
+    "static/css/main.f7ea2c54.css",
+    "static/js/main.9481bc65.js"
   ]
 }
