@@ -26,7 +26,7 @@ function Navigation() {
                         <Link to="/auburn-rehab" className="header-nav-tab">Home</Link>
                     </Nav.Link>
                 </Nav.Item>
-                <NavDropdown id="programs-dropdown" title="Programs ⌄">
+                <NavDropdown id="programs-dropdown" title="Addiction ⌄">
                     <NavDropdown.Item onClick={() => nav("/php")}>
                         Partial Hospitalization Program (PHP)
                     </NavDropdown.Item>
@@ -36,8 +36,16 @@ function Navigation() {
                     <NavDropdown.Item onClick={() => nav("/op")}>
                         Outpatient Program (OP)
                     </NavDropdown.Item>
-                    <NavDropdown.Item onClick={() => nav("/jobs")}>
-                        Jobs Program
+                </NavDropdown>
+                <NavDropdown id="programs-dropdown" title="Mental Health ⌄">
+                    <NavDropdown.Item onClick={() => nav("/php")}>
+                        Partial Hospitalization Program (PHP)
+                    </NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => nav("/iop")}>
+                        Intensive Outpatient Program (IOP)
+                    </NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => nav("/op")}>
+                        Outpatient Program (OP)
                     </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Item>
@@ -53,6 +61,11 @@ function Navigation() {
                 <Nav.Item>
                     <Nav.Link>
                         <Link to="/insurance" className="header-nav-tab">Insurance</Link>
+                    </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/jobs" className="header-nav-tab">Jobs Program</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
@@ -74,7 +87,7 @@ function Navigation() {
                         <ul className="tabpanel">
 
                             <Link to="/auburn-rehab" className="header-nav-tab" onClick={handleClose}>Home</Link>
-                            <NavDropdown id="programs-dropdown" title="Programs ⌄">
+                            <NavDropdown id="programs-dropdown" title="Addiction ⌄">
                                 <NavDropdown.Item>
                                     <Link to="/php" className="hamburger-dropdown-tab" onClick={handleClose}>Partial Hospitalization Program (PHP)</Link>
                                 </NavDropdown.Item>
@@ -84,13 +97,11 @@ function Navigation() {
                                 <NavDropdown.Item>
                                     <Link to="/op" className="hamburger-dropdown-tab" onClick={handleClose}>Outpatient Program (OP)</Link>
                                 </NavDropdown.Item>
-                                <NavDropdown.Item>
-                                    <Link to="/jobs" className="hamburger-dropdown-tab" onClick={handleClose}>Jobs Program</Link>
-                                </NavDropdown.Item>
                             </NavDropdown>
                             <Link to="/mission" className="header-nav-tab" onClick={handleClose}>Mission</Link>
                             <Link to="/about" className="header-nav-tab" onClick={handleClose}>About</Link>
                             <Link to="/insurance" className="header-nav-tab" onClick={handleClose}>Insurance</Link>
+                            <Link to="/jobs" className="header-nav-tab" onClick={handleClose}>Jobs Program</Link>
                             <Link to="/contact" className="header-nav-tab" onClick={handleClose}>Contact</Link>
 
                         </ul>

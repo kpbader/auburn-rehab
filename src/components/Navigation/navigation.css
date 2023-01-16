@@ -24,8 +24,8 @@
 }
 
 #main-nav-links a {
-    padding: 20px;
-    font-size: 22px;
+    padding: 18px;
+    font-size: 16px;
     color: white;
     text-decoration: none;
 }
@@ -58,7 +58,7 @@
   }
 
   .offcanvas {
-    height: 350px !important;
+    height: 400px !important;
     width: 275px !important;
     /* display: flex;
       flex-direction: row;

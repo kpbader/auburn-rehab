@@ -4,8 +4,8 @@ import { useState, useRef } from 'react';
 function ContactForm() {
 
     const form = useRef();
-    const [contactForm, setContactForm] = useState({ name: '', email: '', message: '' });
-    const { name, email, message } = contactForm;
+    const [contactForm, setContactForm] = useState({ name: '', email: '', phone: '', message: '' });
+    const { name, email, phone, message } = contactForm;
     const [errorMessage, setErrorMessage] = useState('');
 
     return (
@@ -18,6 +18,10 @@ function ContactForm() {
             <div id="form-slot-2">
                 <label htmlFor="email">Email</label>
                 <input type="email" defaultValue={email} name="email" />
+            </div>
+            <div id="form-slot-4">
+                <label htmlFor="phone">Phone</label>
+                <input type="phone" defaultValue={phone} name="phone" />
             </div>
             <div id="form-slot-3">
                 <label htmlFor="message">Message</label>

@@ -69,6 +69,23 @@
   font-size: 12px;
 }
 
+#form-slot-4 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#form-slot-4 label {
+  color: white;
+  padding-bottom: 10px;
+}
+
+#form-slot-4 input {
+  border-radius: 5px;
+}
+
 .contact-submit-btn {
   background-color: transparent;
   border: 1px solid white;
