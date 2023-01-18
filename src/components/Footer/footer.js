@@ -22,11 +22,6 @@ function Footer() {
                         <Link to="/auburn-rehab" className="footer-nav-tab" onClick={scrollToTop}>Home</Link>
                     </Nav.Link>
                 </Nav.Item>
-                {/* <Nav.Item>
-                    <Nav.Link>
-                        <Link to="/treatment" className="footer-nav-tab" onClick={scrollToTop}>Treatment</Link>
-                    </Nav.Link>
-                </Nav.Item> */}
                 <Nav.Item>
                     <Nav.Link>
                         <Link to="/mission" className="footer-nav-tab" onClick={scrollToTop}>Mission</Link>
@@ -40,6 +35,11 @@ function Footer() {
                 <Nav.Item>
                     <Nav.Link>
                         <Link to="/insurance" className="footer-nav-tab" onClick={scrollToTop}>Insurance</Link>
+                    </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/jobs" className="footer-nav-tab" onClick={scrollToTop}>Jobs Program</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
